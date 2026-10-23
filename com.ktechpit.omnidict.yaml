@@ -27,8 +27,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/keshavbhatt/omnidict.git
-        tag: v1.0.0
-        commit: c4c84614f8cc5e52dd81e8ac5d98345c255f8fdb
+        tag: v1.0.1
+        commit: 1c5ec7bcf948fafccf4eeebfb2e047837b30cf8a
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
