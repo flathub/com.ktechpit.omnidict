@@ -9,6 +9,7 @@ finish-args:
   - --socket=fallback-x11
   - --socket=wayland
   - --device=dri
+  - --talk-name=org.kde.StatusNotifierWatcher
 
 cleanup:
   - /include
@@ -27,8 +28,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/keshavbhatt/omnidict.git
-        tag: v1.0.0
-        commit: c4c84614f8cc5e52dd81e8ac5d98345c255f8fdb
+        tag: v1.1.0
+        commit: ecd4cf21601b80da2b7acf45b3ff9a58a37f7469
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
